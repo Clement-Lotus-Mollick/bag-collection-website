@@ -96,3 +96,97 @@ nav{
 .btn-two:hover{
     border: 2px solid red;
 }
+
+/* banner two style  */
+
+ .cart{
+    background-color: rgba(112, 128, 144, 0.281);
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: 2px 2px 4px black;
+ }
+ .banner-two{
+    display: grid;
+    margin: 50px auto 0;
+    min-height: 400px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-bottom: 50px;
+ }
+
+ #product{
+    text-align: center;
+ }
+
+ .img-bag{
+    text-align: center;
+ }
+
+ /* tshir style  */
+
+ .tshir-cont{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9376e0;
+    padding: 40px;
+    margin-bottom: 50px;
+ }
+ .t-txt{
+    width: 50%;
+    margin: auto;
+ }
+
+ .percent{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: rgb(128, 128, 16);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+
+    position: relative;
+    bottom: 82%;
+    left: 68%;
+
+    padding: 10px;
+ }
+
+ /* footer style  */
+
+ .foot-img{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .footer-cont{
+    background-color: #e893cf;
+    border: 1px solid green;
+    border-radius: 8px;
+ }
+
+ .footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    padding: 60px;
+    border: 1px solid red;
+ }
+
+ .buy-t{
+    background-color: white;
+    border: 2px solid gray;
+    padding: 7px;
+ }
+
+ .buy-t:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+ }
+
+ /* done without responsive  */
