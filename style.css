@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+    /* font-family: 'Dancing Script', cursive; */
+
+/* style nav bar  */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-heading{
+    display: flex;
+    align-items: center;
+}
+.nav-menus{
+    display: flex;
+    align-items: center;
+     gap: 70px;
+}
+.nav-menus ul{
+    display: flex;
+    gap: 70px;
+}
+.nav-menus ul li{
+    list-style: none;
+    
+}
+.nav-menus li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+nav{
+    background-color: #9376e0;
+}
+
+.nav-head-ttl{
+    font-size: 35px;
+}
+
+#diff-col{
+    color: #e893cf;
+}
+
+.btn-prm{
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 15px;
+    background-color: #e893cf;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+/* nav style finish  */
+
+/* main style start  */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6e9eb;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    
+}
+.banner-txt-details{
+    text-align: center;
+   width: 50%;
+}
+.banner-ttl{
+    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+.banner-des{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn-two{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    padding: 10px 15px;
+    border-radius: 3px;
+
+}
+#btn-two-id{
+    margin-right: 8px;
+}
+
+.btn-two:hover{
+    border: 2px solid red;
+}
