@@ -189,4 +189,8 @@ nav{
     font-weight: bold;
  }
 
- /* done without responsive  */
+ .hide{
+    display: none;
+ }
+
+ /* the website is ready for mob and tab and laptop 15 inc  lotus code C L M H  */
