@@ -1,0 +1,94 @@
+/* for tablet start */
+@media only screen and (max-width: 800px){
+    .card-container{
+        grid-template-columns: repeat(3,1fr);
+        padding: 10px;
+    }
+    .review-total{
+       
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        
+       }
+
+       /* footer start  */
+       
+ /* footer end */
+}
+/* for tablet end */
+
+
+/* for mobile starts  */
+@media only screen and (max-width: 426px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-logo{
+        width: 100%;
+     display: flex;
+     justify-content: center;
+    }
+    .nav-items{
+        flex-direction: column;
+      width: 100%;
+      justify-content: center;
+    }
+    .nav-items a{
+        margin-top: 16px;
+    }
+    #btn-nav{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* hero start  */
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .hero-text{
+        width: 100%;
+    }
+    /* hero end  */
+
+    /* card start here  */
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }
+    /* card end here  */
+
+    /* discount start  */
+    .discount-container{
+     flex-direction: column;
+      }
+      .discount-container .img-discount{
+        width: 100%;
+        /* padding: 20px; */
+        justify-content: center;
+      }
+      .discount-container .text-discount{
+        width: 100%;
+        /* padding: 10px; */
+        text-align: center;
+      }
+     
+    /* disc end  */
+
+
+     /* customer review start */
+     .review-total{
+       
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+       }
+ /* customer review end */
+
+ /* footer start  */
+
+ /* footer end */
+  }
+  /* for mobile ends  */

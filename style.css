@@ -1,196 +1,269 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
-
-    /* font-family: 'Dancing Script', cursive; */
-
-/* style nav bar  */
-.nav-container{
-    display: flex;
-    justify-content: space-between;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Lato:wght@100;300;400;700;900&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.nav-heading{
+ *{
+    box-sizing: border-box;
+ }
+ .total-nav{
+    background-color: #9376e0;
+ }
+ .nav-container{
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
-}
-.nav-menus{
+    max-width: 1400px;
+    margin: 0 auto;
+
+ }
+ .nav-logo img{
+    /* border: 1px solid purple; */
+    width: 50px;
+    object-fit: cover;
+ }
+ .nav-logo p{
+    /* border: 1px solid skyblue; */
+  font-size: 25px;
+  color: white;
+ }
+ .nav-logo{
+    /* border: 1px solid palevioletred; */
     display: flex;
     align-items: center;
-     gap: 70px;
-}
-.nav-menus ul{
-    display: flex;
-    gap: 70px;
-}
-.nav-menus ul li{
-    list-style: none;
-    
-}
-.nav-menus li a{
+    width: 60%;
+ }
+/* nav logo end  */
+
+/* nav items start  */
+
+ .nav-items a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
-}
-
-nav{
-    background-color: #9376e0;
-}
-
-.nav-head-ttl{
-    font-size: 35px;
-}
-
-#diff-col{
-    color: #e893cf;
-}
-
-.btn-prm{
-    font-size: 22px;
-    font-weight: 600;
-    margin-right: 15px;
+ }
+ .nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+ }
+ #btn-nav{
+    color: black;
+    font-weight: bold;
     background-color: #e893cf;
     padding: 10px 20px;
-    border: 0px;
-    border-radius: 6px;
-}
-
-/* nav style finish  */
-
-/* main style start  */
-
-.banner-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #e6e9eb;
-    width: 90%;
-    margin: auto;
-    margin-top: 40px;
-    padding: 20px;
-    
-}
-.banner-txt-details{
-    text-align: center;
-   width: 50%;
-}
-.banner-ttl{
-    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-size: 50px;
-}
-.banner-des{
-    font-size: 45px;
-    font-family: 'Dancing Script', cursive;
-}
-
-.btn-two{
-    background-color: transparent;
-    border: 2px solid blueviolet;
-    padding: 10px 15px;
-    border-radius: 3px;
-
-}
-#btn-two-id{
-    margin-right: 8px;
-}
-
-.btn-two:hover{
-    border: 2px solid red;
-}
-
-/* banner two style  */
-
- .cart{
-    background-color: rgba(112, 128, 144, 0.281);
     border-radius: 10px;
-    padding: 0 10px;
-    box-shadow: 2px 2px 4px black;
  }
- .banner-two{
-    display: grid;
-    margin: 50px auto 0;
-    min-height: 400px;
-    grid-template-columns: repeat(4,1fr);
-    gap: 15px;
-    margin-bottom: 50px;
+ #btn-nav img{
+   width: 11px;
  }
-
- #product{
-    text-align: center;
+ #diff{
+   color: #e893cf;
  }
+/* nav bar end  */
 
- .img-bag{
-    text-align: center;
+
+
+ /* hero start  */
+  .main-container{
+   /* max-width: 1400px; */
+   /* margin: 30px auto 0px; */
+  }
+  .hero-container{
+   max-width: 1400px;
+   margin: 30px auto 0px;
+   display: flex;
+   background-color: rgba(112, 128, 144, 0.178);
+   align-items: center;
+   border-radius: 4px;
+  }
+  .hero-text{
+   /* border: 2px solid red;  */
+   width: 50%;
+   min-height: 40px;
+   text-align: center;
+  }
+  .hero-img{
+   /* border: 2px solid blue;  */
+   width: 50%;
+   min-height: 40px;
+   padding: 11px;
+    
+  }
+  .bag-img{
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;
+  }
+  .hero-text h1{
+   background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+   color: transparent;
+   -webkit-background-clip: text;
+   font-size: 50px;
+   margin-bottom: 0;
+   margin-top: 0;
+  }
+  .hero-text p{
+   font-family: 'Dancing Script', cursive;
+   font-size: 30px;
+  }
+  .fa-brands{
+   font-size: 30px;
+  }
+  .icons-awe{
+   word-spacing: 20px;
+  }
+  .btn-hero{
+   border: 2px solid blueviolet;
+   border-radius: 2px;
+   background: transparent;
+   padding: 10px 20px;
+   margin-right: 10px;
+   margin-top: 20px;
+  }
+ /* hero end  */
+
+
+
+ /* card start here  */
+ .card-container{
+   max-width: 1400px;
+   margin: 35px auto 0;
+  
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 20px;
  }
-
- /* tshir style  */
-
- .tshir-cont{
-    display: flex;
-    justify-content: space-around;
-    background-color: #9376e0;
-    padding: 40px;
-    margin-bottom: 50px;
+ .span-p{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
  }
- .t-txt{
-    width: 50%;
-    margin: auto;
+ .single-card img{
+   width: 70%; 
+   /* margin: auto;
+   margin-right: auto; */
+   
+  
  }
-
- .percent{
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    background-color: rgb(128, 128, 16);
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: 500;
-
-    position: relative;
-    bottom: 82%;
-    left: 68%;
-
-    padding: 10px;
+ #img-id{
+   display: flex;
+   justify-content: center;
  }
-
- /* footer style  */
-
- .foot-img{
-    display: flex;
-    justify-content: space-between;
+ .single-card{
+   background-color: rgba(112, 128, 144, 0.178);
+   padding: 0 10px;
+   border-radius: 10px;
+   box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.632);
  }
+ /* card end here */
 
- .footer-cont{
-    background-color: #e893cf;
-    border: 1px solid green;
-    border-radius: 8px;
+
+ /* discount starts here  */
+ .total-bg{
+   background-color: #9376E0;
+   margin-top: 30px;
  }
-
- .footer{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 15px;
-    padding: 60px;
-    border: 1px solid red;
+ .discount-container{
+   max-width: 1400px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
  }
-
- .buy-t{
-    background-color: white;
-    border: 2px solid gray;
-    padding: 7px;
+ .discount-container .img-discount{
+   width: 50%;
+   padding: 20px;
+   /* border: 2px solid blue; */
  }
-
- .buy-t:hover{
-    background-color: red;
-    color: white;
-    border: 1px solid black;
-    font-weight: bold;
+ .discount-container .text-discount{
+   width: 50%;
+   padding: 10px;
+   /* border:  2px solid red; */
  }
-
- .hide{
-    display: none;
+ .img-discount img{
+   width: 70%;
+   display: block;
+   margin: 0 auto;
  }
+ .img-discount{
+   position: relative;
+ }
+ /* or do below     keep in notes special its important for responsive */
+ /* .img-discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .img-discount img{
+   width: 70%;
+ } */
+ .disct-btn{
+   padding: 10px 15px;
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+ }
+ .disct-btn:hover{
+   background-color: #e893cf;
+ }
+ .voucher{
+   height: 70px;
+   width: 70px;
+   border-radius: 50%;
+   font-size: 30px;
+   background-color: rgba(147, 147, 23, 0.829);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 9px;
+   position: absolute;
+   top: 5%;
+   left: 65%;
+ }
+ 
+ /* discount starts ends */
 
- /* the website is ready for mob and tab and laptop 15 inc  lotus code C L M H  */
+
+ /* customer review  */
+ .review-total{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+ }
+ .card-review-cont{
+  background-color: #e893cf;
+  border-radius: 6px;
+  padding: 8px;
+ }
+ .card-r-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ /* customer review end */
+
+ /* footer start  */
+ .footer-total{
+  margin-top: 30px;
+  background-color: #9376E0;
+  text-align: center;
+ height: 300px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ .foot-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+ .lol{
+  margin-top: 0;
+  color: white;
+ }
+ /* footer end */
